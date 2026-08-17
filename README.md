@@ -38,6 +38,12 @@ The project uses University of Alabama enrollment data covering the period from 
 
 Forecasting performance is evaluated using Mean Squared Error (MSE).
 
+## Results
+
+The Particle Swarm Optimization process searches for an interval width that minimizes forecasting error.
+
+The final model evaluates forecasting performance using Mean Squared Error (MSE), with the optimized interval width used to generate the final forecasts and fuzzy logical relationships.
+
 ## Technologies
 
 - MATLAB
